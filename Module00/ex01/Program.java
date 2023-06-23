@@ -46,7 +46,8 @@ class Program {
             PrimeNumberInfos primeNumberInfos = isPrime(number);
             System.out.println(primeNumberInfos);
         } catch (InputMismatchException e) {
-            System.out.println("IllegalArgument");
+            System.err
+                    .println("IllegalArgument");
         }
     }
 }
