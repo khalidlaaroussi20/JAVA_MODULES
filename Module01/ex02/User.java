@@ -1,6 +1,4 @@
-package ex00;
-
-import javax.naming.Name;
+package ex02;
 
 public class User {
     private final int identifier;
@@ -8,8 +6,8 @@ public class User {
     private int balance;
 
 
-    User(int identifier, String name, int balance) {
-        this.identifier = identifier;
+    User(String name, int balance) {
+        this.identifier = UserIdsGenerator.getInstance().generateId();
         this.name = name;
         this.setBalance(balance);
     }
@@ -25,7 +23,7 @@ public class User {
     public String getName() {
         return name;
     }
-
+    
     public void setName(String name) {
         this.name = name;
     }
@@ -37,7 +35,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "name = " + name + " balance = " + balance;
+        return "id = " + identifier  + ", name = " + name + ", balance = " + balance;
     }
 
 }
