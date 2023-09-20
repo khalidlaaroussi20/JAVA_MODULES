@@ -1,0 +1,4 @@
+fr/test/repositories/ProductsRepositoryJdbcImplTest1.class
+fr/test/repositories/EmbeddedDataSourceTest.class
+fr/test/repositories/ProductsRepositoryJdbcImplTest.class
+fr/test/numbers/NumberWorkerTest.class

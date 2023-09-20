@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: fr.test.numbers.NumberWorkerTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in fr.test.numbers.NumberWorkerTest
+shouldReturnTrueForPrimes{int}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at fr.test.numbers.NumberWorkerTest.shouldReturnTrueForPrimes(NumberWorkerTest.java:26)
+

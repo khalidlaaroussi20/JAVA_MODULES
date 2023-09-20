@@ -1,0 +1,10 @@
+fr/test/exceptions/EntityNotFoundException.class
+fr/test/program/Main.class
+fr/test/repositories/ProductsRepository.class
+fr/test/numbers/NumberWorker.class
+fr/test/exceptions/AlreadyAuthenticatedException.class
+fr/test/repositories/ProductsRepositoryJdbcImpl.class
+fr/test/models/User.class
+fr/test/models/Product.class
+fr/test/services/UsersServiceImpl.class
+fr/test/repositories/UserRepository.class

@@ -1,0 +1,5 @@
+fr/test/repositories/ProductsRepositoryJdbcImpl.class
+fr/test/models/Product.class
+fr/test/program/Main.class
+fr/test/repositories/ProductsRepository.class
+fr/test/numbers/NumberWorker.class
